@@ -7,11 +7,11 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "25285918"))
-API_HASH = getenv("API_HASH", "b8325224911adaa952aee661d7ac0810")
-BOT_TOKEN = getenv("BOT_TOKEN", "6230044974:AAGL1AUvveQ5WURnysvruE0Ur5PggIELizs")
+API_ID = int(getenv("API_ID", "8039541"))
+API_HASH = getenv("API_HASH", "a33bbdb4aab8726bdc2c73442a0eaeb5")
+BOT_TOKEN = getenv("BOT_TOKEN", "5664558596:AAG5XqxYMNKLEwwr7DFRLIFp_-l28K8iu5M")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001714695796"))
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1895660227").split())) + [1895660227]
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6250435647").split())) + [6250435647]
 MONGO_DB_URI = getenv("mongodb+srv://dream:dream@cluster0.pm3y5me.mongodb.net/dream?retryWrites=true&w=majority", None)
 
 if MONGO_DB_URI != None:
