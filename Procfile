@@ -1,2 +1,1 @@
-web: python -m http.server $PORT 
-worker: python3 -m AnonX
+web: pythoworker: python3 -m AnonX
